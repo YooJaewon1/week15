@@ -1,0 +1,315 @@
+<style type="text/css">
+		html{font-family: 'Noto Sans KR', sans-serif; }
+		@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'LOTTERIACHAB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{padding:0; margin: 0}
+
+body, h1, h2, h3, img, p{margin:0; letter-spacing: -0.05rem}
+
+header, section, footer{}
+
+
+div {width:1100px; margin:0 auto;}
+
+h1{font-family: 'LOTTERIACHAB'; font-weight: 100;
+	line-height: 1.1;
+	font-size: 5rem}
+p{font-family: 'GmarketSans'; font-weight: 300;
+	letter-spacing: -0.13rem;}
+h2{font-family: 'LOTTERIACHAB'; font-weight: 100;
+	font-size: 3rem	}
+h3{font-family: 'GmarketSans'; font-weight: 300;
+	line-height: 1.8;
+	font-size: 1.2rem}
+h4{font-family: 'GmarketSans'; font-weight: 300}
+
+img{max-width: 100%}
+
+
+/* ------------------------ */
+
+div.top {height: 700px;
+		justify-content: center;
+  		align-items: center;
+  		display: flex;
+  		text-align: center;
+		}
+div.wrapper-top h2{font-size: 5rem;
+		position: relative;}
+div.wrapper-top h3{font-size: 2rem; text-align: center;}
+div.wrapper-top2{position:relative}
+	
+	h1.h1-overlay1{
+		position: absolute;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		font-size: 6.5rem;
+  		letter-spacing: -0.2rem;
+  		color: var(--yellow);
+  		z-index: 2}
+  	
+  	h1.h1-overlay2{
+  		position: absolute;
+  		left: 50%;
+  		transform: translate(-51%, -48%);
+  		font-size:7.3rem;
+  		letter-spacing: -0.85rem;
+  		color: var(--dpurple);
+  		z-index: 1}
+
+/* ------------------------ */
+	div.first-button{text-align: center;}
+/* ------------------------ */
+	div.tw1100{ height: 1200px;
+		display: flex;
+  		justify-content: center;}
+
+	div.tw700{width:650px; margin: 0 auto;}
+		h3{font-size: 2rem}
+
+	div.tt2{display: flex; align-items: flex-start;}
+	div.tt2 h1{text-align: right;
+			font-size: 6rem;}
+		p{font-size: 1.5rem;
+				text-align: right;
+				position: relative;
+				right:0;
+				padding-top: 1vh}
+		h4{font-size: 0.9rem;
+			font-weight: 100;
+			color: var(--purple);
+			text-align: right;}
+
+	div.tt1, div.tt2, div.tt3 {width: 100%;text-align: center;
+		padding-top: 7vh;
+		}
+
+	div.tt2-c {display: flex; flex-direction: column; margin: 0;}
+	div.tt3-c {display: flex; flex-direction: column; margin: 0;}
+
+	div.tt3 { display: flex;
+  			flex-direction: row;
+			}
+	div.tt3 h1{text-align: left;
+		font-size: 6rem;
+		align-self: flex-start;
+		}
+	div.tt3 p{font-size: 1.5rem;
+				text-align: left;
+				align-self: flex-start;
+				}
+	div.tt3 h4{font-size: 0.9rem;
+			font-weight: 100;
+			color: var(--purple);
+			text-align: left;
+			align-self: flex-start;}
+
+	.circle {
+	  width: 220px;
+	  height: 220px;
+	  border-radius: 50%;
+	  background-color: var(--purple);
+		flex-shrink: 0}
+
+	.circle3 {
+	  width: 220px;
+	  height: 220px;
+	  border-radius: 50%;
+	  background-color: var(--purple);
+	margin-left: auto;
+  	align-self: flex-start;
+  	flex-shrink: 0;
+}
+/* ------------------------ */
+div.thw1100{ height: 1000px;
+		display: flex;
+  		justify-content: center;}
+
+div.tht1{width:700px; margin: 0 auto; text-align: center;}
+div.tht1 h1 {padding-top:15vh;
+		font-size: 7.5rem}
+div.tht1 h3 {color: var(--yellow);
+			line-height: 1.3;
+			padding-top: 3vh}
+
+.tht2 {padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+div.tht2 h1 {font-size: 3rem;
+		color: var(--yellow);
+		padding-bottom: 2vh}
+
+.tht2-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.circle4 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.tht2-c h3 {font-size: 1.5rem;
+font-weight: 500; color: var(--yellow)}
+.tht2-c p {color: white;
+	font-size: 1.2rem;
+	letter-spacing: -0.05rem}
+.tht2-c p.small {font-size: 0.8rem;
+	letter-spacing: 0rem; opacity: 0.66
+	;padding-top: 1vh; padding-bottom:3vh}
+/* ------------------------ */
+
+div.fw1100 {height: 1000px;
+	align-items: center;
+	align-content: center;
+	}
+/* ------------------------ */
+
+div.fiw1100 {height:900px}
+div.fiw700
+div.fit1{width:700px; margin: 0 auto; text-align: center;}
+div.fit1 h1 {padding-top:15vh;
+		font-size: 7.5rem}
+div.fit1 h3 {color: var(--purple);
+			line-height: 1.3;
+			padding-top: 3vh}
+
+.fit2 {padding-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+}
+
+.fit2-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-right: 1vw;
+padding-bottom: 1vw
+}
+
+.circle5 {
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+div.fit2-c h2 {font-size: 2rem;
+font-weight: 500; color: var(--purple);
+padding-top: 5vh;
+padding-bottom: 1.5vh}
+.fit2-c h3 {color: var(--purple);
+	font-size: 2.5rem;
+	letter-spacing: -0.05rem;
+	font-weight: 500}
+
+.fiw700 p {text-align: center;
+	color: var(--purple);
+	font-size: 1.3rem;
+	padding-top: 3vh}
+/* ------------------------ */
+div.sw1100{height: 700px}
+div.st1{width: 700px;
+	color: var(--yellow);
+	text-align: center;}
+	.st1 h1 {font-size: 4rem;
+		padding-top: 10vh}
+	.st1 h3 {font-size: 2.8rem;
+		padding-top: 1vh}
+	.st1 p{text-align: center;
+		font-size: 1.5rem}
+
+	.st2 {padding-top: 10vh}
+	.st2 h3 {text-align: center;
+		color: var(--yellow);
+		font-weight: 500;
+		font-size: 2.5rem}
+
+div.sew1100{height: 500px}
+
+
+
+
+
+
+/* ------------------------ */
+/* ------------------------ */
+/* ------------------------ */
+strong{font-weight: 500}
+
+
+
+section.whitebg {
+  background-color: white;
+  width: 100%;
+}
+section.yellowbg {
+  background-color: var(--yellow);
+  width: 100%;
+}
+
+section.purplebg {
+  background-color: var(--purple);
+  width: 100%;
+}
+
+.purpletext {color:var(--purple);}
+.yellow {color:var(--yellow)}
+.highlight-p{color:var(--purple)}
+.highlight-y{color:var(--yellow)}
+
+:root {
+	 --purple:  #682fe5;
+	 --dpurple: #47246c;
+	 --yellow: #fdfd47;
+	}
+
+
+
+</style>
